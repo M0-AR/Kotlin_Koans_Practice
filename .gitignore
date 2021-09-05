@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/Introduction/Default arguments/build/
+/Introduction/Hello, world_/build/
+/Introduction/Triple-quoted strings/out/
+/Introduction/Triple-quoted strings/out/production/classes/
+/Introduction/Triple-quoted strings/out/test/classes/
+/util/build/

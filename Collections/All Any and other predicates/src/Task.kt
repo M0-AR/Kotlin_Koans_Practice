@@ -11,12 +11,6 @@ fun Shop.countCustomersFrom(city: City): Int =
         customers.filter { it.city == city }.count()
 
 // Return a customer who lives in a given city, or null if there is none
-fun Shop.findCustomerFrom(city: City): Customer? {
-        val filterCustomers = customers.filter { it.city == city }
-        return if (filterCustomers.isEmpty()) {
-                null
-        } else {
-                filterCustomers.first()
-        }
-}
+fun Shop.findCustomerFrom(city: City): Customer? =
+        customers.find { it.city == city }
 

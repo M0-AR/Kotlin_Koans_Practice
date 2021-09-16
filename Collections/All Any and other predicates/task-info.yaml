@@ -34,8 +34,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: QPbpIA5MDpfecvmT/ZmnCAGqsOtarvhWHFEfKNtQr/oR20t0Mxu430wa8Om1RcVB
-  - offset: 794
-    length: 0
+  - offset: 587
+    length: 45
     placeholder_text: TODO()
     initial_state:
       length: 6

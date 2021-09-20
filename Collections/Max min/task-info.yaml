@@ -4,7 +4,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 255
+  - offset: 157
     length: 0
     placeholder_text: TODO()
     initial_state:
@@ -14,8 +14,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: l0SbWz0YkMWgfwB+Eh6z61uUiWZ+COW9ZUWdPZNYkHIG32ptFBuWslYne2+MI9WZ
-  - offset: 726
-    length: 0
+  - offset: 365
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -41,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Thu, 16 Sep 2021 09:35:10 UTC
+  time: Mon, 20 Sep 2021 19:31:34 UTC
 record: -1

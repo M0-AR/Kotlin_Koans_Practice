@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 116
-    length: 74
+    length: 37
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -14,8 +14,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: bHbWHlbXnNTk7UiRFBJcBx27lg4R5GtuqVPHvPvi6gFlwSjEuBCWMVdPLTRL4kUp
-  - offset: 299
-    length: 35
+  - offset: 262
+    length: 39
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -24,7 +24,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: bHbWHlbXnNTk7UiRFBJcByGklhlj8USJqlS5maPcq3q3gRffHRSF/cCpVYyUTH98
-  - offset: 450
+  - offset: 417
     length: 42
     placeholder_text: TODO()
     initial_state:
@@ -51,5 +51,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 21 Sep 2021 19:28:51 UTC
+  time: Tue, 21 Sep 2021 19:33:30 UTC
 record: -1

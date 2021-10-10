@@ -1,7 +1,12 @@
 // Find the most expensive product among all the delivered products
 // ordered by the customer. Use `Order.isDelivered` flag.
 fun findMostExpensiveProductBy(customer: Customer): Product? {
-    return customer.getOrderedProducts().maxBy { product -> product.price }
+    return customer
+            .orders
+            .asSequence()
+            .filter(Order::isDelivered)
+            .flatMap { it.products.asSequence() }
+            .maxBy(Product::price)
 }
 
 // Count the amount of times a product was ordered.

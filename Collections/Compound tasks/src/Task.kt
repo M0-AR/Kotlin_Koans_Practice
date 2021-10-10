@@ -18,3 +18,7 @@ fun Shop.getNumberOfTimesProductWasOrdered(product: Product): Int {
 
 fun Customer.getOrderedProducts(): List<Product> =
         orders.flatMap(Order::products)
+
+
+fun start() {
+}

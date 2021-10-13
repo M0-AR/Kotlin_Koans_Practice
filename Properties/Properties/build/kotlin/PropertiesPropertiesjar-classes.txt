@@ -1,0 +1,1 @@
+C:\Users\md\AndroidStudioProjects\Kotlin Koans\Properties\Properties\build\classes\java\main\PropertyExample.class
